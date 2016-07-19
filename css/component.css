@@ -6,6 +6,18 @@ body {
 	background: -ms-linear-gradient(top, #f0f0f0 0%,#f0f0f0 85%,#3d3737 85%,#3d3737 100%);
 	background: linear-gradient(to bottom, #f0f0f0 0%,#f0f0f0 85%,#3d3737 85%,#3d3737 100%);
 }
+.browser{
+	color: #fff;
+    position: absolute;
+    left: 50%;
+    z-index: 5;
+    line-height: 40px;
+    background: #D24141;
+    padding: 0 20px;
+    border-radius: 0 0 5px 5px;
+    margin-left: -250px;
+	display:none;
+}
 
 .no-js body {
 	overflow: auto;
