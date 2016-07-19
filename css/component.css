@@ -18,6 +18,18 @@ body {
     margin-left: -250px;
 	display:none;
 }
+.phone{
+	color: #fff;
+    position: absolute;
+    left: 50%;
+    z-index: 5;
+    line-height: 40px;
+    background: #D24141;
+    padding: 0 20px;
+    border-radius: 0 0 5px 5px;
+    margin-left: -180px;
+	display:none;
+}
 
 .no-js body {
 	overflow: auto;
@@ -251,4 +263,10 @@ body {
 
 .gr-caption > div a:hover {
 	color: #d80066;
+}
+
+@media screen and (max-width: 767px){
+	.phone{
+		display:block;
+	}
 }
